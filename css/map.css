@@ -1,0 +1,90 @@
+html, body, #map-canvas 
+{
+	height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+ #locationField, #controls {
+        position: relative;
+        width: 100%;
+		height : auto;
+		overflow: auto;
+      }
+      #autocomplete {
+       /* position: absolute;
+        top: 0px;
+        left: 0px;*/
+        width: 300px;
+		padding : 5px;
+		border-radius: 5px;
+      }
+	  
+	  .address_text{
+	  	width: 300px;
+		margin : 3px;
+		padding : 5px;
+		border-radius: 5px;
+	  }
+	  .alais_text{
+	  	width: 300px;
+		margin : 3px;
+		padding : 5px;
+		border-radius: 5px;
+	  }
+	  
+      .label {
+        text-align: right;
+        font-weight: bold;
+        width: 100px;
+        color: #303030;
+      }
+	  #map-canvas {
+        width : 600px;
+		height: 500px;
+        margin: 0px;
+        padding: 0px
+      }
+	  
+	  #container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	margin-top: 10px;
+}
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+	margin-top: 10px;
+}
+#col1 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+}
+#col2 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:56%;
+	overflow:hidden;
+}
+
+.text_field{
+	/*float : left;*/
+	width : 100px;
+	display : inline-block;
+	margin : 5px;
+	padding : 5px;
+	border-radius: 5px;
+}
+
+#button_style{
+	border-radius : 5px;
+	
+}
